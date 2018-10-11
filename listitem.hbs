@@ -1,0 +1,47 @@
+{{#with publication.xml.meta}}
+<div class="item__image">
+        <a href="/do/{{publication.doi}}/full/" title="image">
+          {{#if (xml:out '//thumb')}}
+            <img src="{{xml:out '//thumb'}}" class="thumb" />
+          {{/if}}
+        </a>
+    </div>
+<div class="item__body">
+	<span class="filled default">
+		Multimedia Library
+	</span>
+	<span class="default-label">
+		{{#if xml:out '//subject[@authority="multi-type"]}}
+			{{xml:out '//subject[@authority="multi-type"]/topic'}}
+		{{/if}}
+	</span>
+	<h2 class="item__title">
+		<a href="/do/{{publication.doi}}/full/">
+			{{xml:out "//title"}}
+		</a>
+	</h2>
+
+	<div class="item__detail">
+		<span>{{formatDate (xml:out '//pubdate') 'MMMMM YYYY'}}</span>
+	</div>
+
+	<div class="item__footer">
+		<ul class="rlist--inline separator item__detail">
+			<li>
+				<a href="/do/{{publication.doi}}/full/" title="Full text">
+					View Item
+				</a>
+			</li>
+		</ul>
+		<div class="accordion">
+			<a href="#" title="Preview Abstract" aria-expanded="false" class="accordion__control">
+				<i class="icon-section_arrow_d"></i>
+				Preview Abstracts o
+			</a>
+			<div class="accordion__content item__abstract">
+				{{xml:out '//abstract'}}
+			</div>
+		</div>
+	</div>
+</div>
+{{/with}}
