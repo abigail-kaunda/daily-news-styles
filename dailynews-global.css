@@ -5,6 +5,11 @@ body {
 	background-color:#ffffff;
 }
 
+p {
+	font-size:16px;
+	line-height:1.5em;
+}
+
 .local-navigation {
 	background-color:#ffffff;
 	border-top:1px solid #666;
@@ -13,6 +18,20 @@ body {
 
 .normal-view-desktop {
 	background-color:#ffffff;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
+}
+
+.normal-view-desktop .navdrawer-container .navdrawer-items li a {
+	color:#00447c;
+	font-size:1.1em;
+	font-weight:700;
+	text-transform:uppercase;
+}
+.normal-view-desktop .navdrawer-container .navdrawer-items li .navdrawer-submenu li a {
+    text-transform: none;
+}
+.responsiveQuickSearchWidget.widget {
+	width:100%;
+}
+.quicksearch-actions .responsiveAdvanceSearch, .quicksearch-actions .AdvanceSearch {
+	display:none;
 }
