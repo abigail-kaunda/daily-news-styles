@@ -35,3 +35,59 @@ p {
 .quicksearch-actions .responsiveAdvanceSearch, .quicksearch-actions .AdvanceSearch {
 	display:none;
 }
+
+
+/* ARTICLE LEVEL */
+@media screen and (max-width: 532px){
+    figure.daily-news-image {
+        margin: 1em auto;
+    }
+	.adn-img {
+        width:100%
+    }
+}
+@media screen and (min-width: 532px){
+	.daily-news-image:nth-of-type(even) {
+    float: left;
+    margin-left:0;
+    }
+    .daily-news-image:nth-of-type(odd) {
+    float: right;
+    margin-right:0;
+    }
+}
+
+img.adn-img {
+    max-width: 300px;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    padding: 5px;
+}
+
+figure.daily-news-image {
+    padding: 5px;
+    display: table;
+}
+
+figure.daily-news-image img {
+    display: block;
+}
+
+.bio-section span {
+    display: block;
+    margin: 10px auto;
+}
+
+.article__body {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.article__body p {
+	font-size: 18px;
+	line-height:1.6;
+}
