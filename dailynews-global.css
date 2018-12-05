@@ -60,6 +60,10 @@ p {
 img.adn-img {
     max-width: 300px;
 }
+img.adn-fig {
+    max-width:600px;
+    width:100%;
+}
 
 figcaption {
     display: table-caption;
@@ -67,16 +71,16 @@ figcaption {
     padding: 5px;
 }
 
-figure.daily-news-image {
+figure.daily-news-image, figure.daily-news-figure {
     padding: 5px;
     display: table;
 }
 
-figure.daily-news-image img {
+figure.daily-news-image img, figure.daily-news-figure img {
     display: block;
 }
 
-.bio-section span {
+.bio-section span, .disclosure-section span {
     display: block;
     margin: 10px auto;
 }
@@ -90,4 +94,19 @@ figure.daily-news-image img {
 .article__body p {
 	font-size: 18px;
 	line-height:1.6;
+}
+
+.topic__section span {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #028864;
+}
+
+.adn-references {
+    clear:both;
+}
+
+.commentary-images figure.daily-news-image {
+    float:left;
+    margin-left:auto;
 }
