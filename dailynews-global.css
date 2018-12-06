@@ -38,6 +38,7 @@ p {
 
 .loginBar {
 	color:white;
+	font-size:1.1em;
 }
 
 .loginBar > a[href^="https://account.asco.org"], .loginBar > a[href^="/action/doLogout"] {
@@ -63,11 +64,16 @@ p {
 	text-decoration:underline;
 	background:none;
 }
-.loginBar > a[href^="https://account.asco.org"]:hover::before, .loginBar > a[href^="/action/doLogout"]:hover::before {
-    content:url('/pb-assets/images/adn/account-icon-hover.png');
-    position: absolute;
-    width: 20px;
-    margin-left: -25px;
+span.individualUser a:link, span.individualUser a:visited {
+    color: #666;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: -8px;
+}
+
+span.individualUser a:hover {
+    text-decoration: underline;
+    color: #088965;
 }
 
 /* ARTICLE LEVEL */
