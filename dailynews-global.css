@@ -36,6 +36,39 @@ p {
 	display:none;
 }
 
+.loginBar {
+	color:white;
+}
+
+.loginBar > a[href^="https://account.asco.org"], .loginBar > a[href^="/action/doLogout"] {
+    background: none;
+    color: #088965;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 0;
+    text-decoration: none;
+    margin-left: 25px;
+	transition:0.25s ease all;
+}
+
+.loginBar > a[href^="https://account.asco.org"]::before, .loginBar > a[href^="/action/doLogout"]::before {
+    content:url('/pb-assets/images/adn/account-icon.png');
+    position: absolute;
+    width: 20px;
+    margin-left: -25px;
+}
+
+.loginBar > a[href^="https://account.asco.org"]:hover, .loginBar > a[href^="/action/doLogout"]:hover {
+	text-decoration:underline;
+	background:none;
+}
+.loginBar > a[href^="https://account.asco.org"]:hover::before, .loginBar > a[href^="/action/doLogout"]:hover::before {
+    content:url('/pb-assets/images/adn/account-icon-hover.png');
+    position: absolute;
+    width: 20px;
+    margin-left: -25px;
+}
 
 /* ARTICLE LEVEL */
 @media screen and (max-width: 532px){
