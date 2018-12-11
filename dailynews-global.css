@@ -10,6 +10,16 @@ p {
 	line-height:1.5em;
 }
 
+.full-menu-bar .wrapped {
+    width: 100%;
+}
+
+.full-menu-bar .row.row-xs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .local-navigation {
 	background-color:#ffffff;
 	border-top:1px solid #666;
@@ -34,6 +44,24 @@ p {
 }
 .quicksearch-actions .responsiveAdvanceSearch, .quicksearch-actions .AdvanceSearch {
 	display:none;
+}
+
+@media (max-width: 991px) {
+	.menuHtml .normal-view-desktop .mini-menu {
+    	color: #088965;
+	}
+	.responsiveQuickSearchWidget .icon-search {
+		color: #088965;
+	}
+	.full-menu-bar .row.row-xs {
+    	flex-wrap:nowrap;
+	}
+}
+@media (max-width:660px) {
+	.col-xs-1-2.nav-items-left, .col-xs-1-2.search-items-right {
+		max-width:0;
+		width:100%;
+	}
 }
 
 .loginBar {
