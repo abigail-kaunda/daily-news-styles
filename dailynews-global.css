@@ -18,7 +18,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-	flex-wrap: wrap;
+}
+
+@media (max-width:1200px) {
+	.full-menu-bar .row.row-xs {
+    	flex-wrap:wrap;
+	}
 }
 
 .local-navigation {
@@ -55,6 +60,14 @@ p {
 	display:none;
 }
 
+.responsiveQuickSearchWidget.widget .searchButtons {
+	background-color:#088965;
+}
+
+.responsiveQuickSearchWidget.widget .searchButtons:hover {
+    background: #066f51;
+}
+
 @media (max-width: 991px) {
 	.menuHtml .normal-view-desktop .mini-menu {
     	color: #088965;
@@ -65,12 +78,17 @@ p {
 	.full-menu-bar .row.row-xs {
     	flex-wrap:nowrap;
 	}
-}
-@media (max-width:660px) {
 	.col-xs-1-2.nav-items-left, .col-xs-1-2.search-items-right {
 		min-width:0;
 		width:100%;
 	}
+	.col-xs-1-2.search-items-right {
+    align-self: flex-start;
+	}
+}
+
+.mini-menu {
+	border-left:0px solid transparent;
 }
 
 .loginBar {
