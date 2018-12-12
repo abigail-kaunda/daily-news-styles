@@ -87,9 +87,13 @@ p {
 @media (max-width: 991px) {
 	.menuHtml .normal-view-desktop .mini-menu {
     	color: #088965;
+	    padding: 5px 0px;
 	}
 	.responsiveQuickSearchWidget .icon-search {
 		color: #088965;
+	}
+	.responsiveQuickSearchWidget .main-search-field {
+	    width: calc(100% - 108px);
 	}
 	.full-menu-bar .row.row-xs {
     	flex-wrap:nowrap;
