@@ -26,6 +26,17 @@ p {
 	}
 }
 
+
+@media screen and (min-width:991px) and (max-width:1200px) {
+	.menuHtml {
+    	margin-top: 0;
+	}
+	.menuHtml > .wrapped > .widget-body {
+    	padding-top:0;
+    	padding-bottom:0;
+	}
+}
+
 .local-navigation {
 	background-color:#ffffff;
 	border-top:1px solid #666;
@@ -53,6 +64,11 @@ p {
 .normal-view-desktop .navdrawer-container .navdrawer-items li .navdrawer-submenu li a {
     text-transform: none;
 }
+
+.normal-view-desktop .navdrawer-header {
+    background-color: #088965;
+}
+
 .responsiveQuickSearchWidget.widget {
 	width:100%;
 }
@@ -84,6 +100,9 @@ p {
 	}
 	.col-xs-1-2.search-items-right {
     align-self: flex-start;
+	}
+	.main-logo {
+    	padding: 7px 0;
 	}
 }
 
