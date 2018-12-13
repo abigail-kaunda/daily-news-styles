@@ -179,6 +179,26 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     width: 99%;
     margin: 1em auto 0.5em auto;
 }
+.adn-homepage-commentary ul.do-pub-list {
+    list-style-type: none;
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+	padding-left: 0;
+}
+.adn-homepage-commentary ul.do-pub-list .item__image {
+    height: 300px;
+    overflow: hidden;
+}
+
+.adn-homepage-commentary ul.do-pub-list .item__image img {
+	max-width:100%;
+}
+.adn-homepage-commentary .do-pub-list .teaser-details-container {
+    background-color: #cdcdcd;
+    padding: 5px 15px;
+}
+
 
 /* ARTICLE LEVEL */
 @media screen and (max-width: 532px){
