@@ -196,9 +196,50 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 }
 .adn-homepage-commentary .do-pub-list .teaser-details-container {
     background-color: #cdcdcd;
-    padding: 5px 15px;
+    padding: 10px 5px;
+    margin: 0 10px;
 }
 
+.adn-homepage-commentary .do-pub-list .teaser-tile-container {
+    background-color: #cdcdcd;
+    margin-top: -40px;
+    z-index: 100;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.teaser-tile-container h2.item__title {
+    margin-top: 0;
+}
+.teaser-tile-container h2.item__title a:link, .teaser-tile-container h2.item__title a:visited {
+    text-decoration: none;
+    color: #444;
+    font-size: 0.9em;
+}
+
+.teaser-tile-container h2.item__title a:hover {
+    text-decoration: underline;
+}
+.do-pub-list .teaser-tile-container .item-divider {
+    height: 5px;
+    width: 30%;
+    background-color: #088965;
+    margin-bottom: 1em;
+}
+
+.teaser-tile-container .item__abstract {
+    padding-top: 0.5em;
+}
+.item__topic span {
+    color: #088965;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.95em;
+}
+
+.adn-homepage-commentary .do-pub-list .item__topic {
+	display:none;
+}
 
 /* ARTICLE LEVEL */
 @media screen and (max-width: 532px){
