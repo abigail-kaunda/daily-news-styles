@@ -200,6 +200,10 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     margin: 0 10px;
 }
 
+.adn-homepage-commentary .do-pub-list .do_teaser_item {
+    background-color: #cdcdcd;
+}
+
 .adn-homepage-commentary .do-pub-list .teaser-tile-container {
     background-color: #cdcdcd;
     margin-top: -40px;
