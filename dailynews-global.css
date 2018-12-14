@@ -220,7 +220,8 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 .teaser-tile-container h2.item__title a:hover {
     text-decoration: underline;
 }
-.do-pub-list .teaser-tile-container .item-divider {
+
+.teaser-tile-container .item-divider {
     height: 5px;
     width: 30%;
     background-color: #088965;
