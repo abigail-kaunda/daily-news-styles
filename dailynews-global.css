@@ -313,7 +313,7 @@ figure.daily-news-image img {
    max-height:300px;
 }
 img.adn-fig {
-    max-width: 600px;
+    max-width: 560px;
 }
 
 @media screen and (max-width: 532px){
