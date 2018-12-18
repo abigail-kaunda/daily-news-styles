@@ -194,17 +194,18 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 .adn-homepage-commentary ul.do-pub-list .item__image img {
 	max-width:100%;
 }
-.adn-homepage-commentary .do-pub-list .teaser-details-container {
+
+.adn-homepage-commentary .do-pub-list .teaser-details-container, .featured .do_teaser_item .teaser-details-container {
     background-color: #cdcdcd;
     padding: 10px 5px;
     margin: 0 10px;
 }
 
-.adn-homepage-commentary .do-pub-list .do_teaser_item {
+.adn-homepage-commentary .do-pub-list .do_teaser_item, .featured .do_teaser_item {
     background-color: #cdcdcd;
 }
 
-.adn-homepage-commentary .do-pub-list .teaser-tile-container {
+.adn-homepage-commentary .do-pub-list .teaser-tile-container, .featured .do_teaser_item .teaser-tile-container {
     background-color: #cdcdcd;
     margin-top: -40px;
     z-index: 100;
@@ -242,8 +243,68 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     font-size: 0.95em;
 }
 
-.adn-homepage-commentary .do-pub-list .item__topic {
+.adn-homepage-commentary .do-pub-list .item__topic, .featured .do_teaser_item .item__topic {
 	display:none;
+}
+.featured img.thumb {
+    max-width: 100%;
+}
+.featured .teaser-tile-container h2.item__title {
+    font-size: 2.5em;
+}
+.latest-news-container .do-pub-list .item__image {
+    display: none;
+}
+
+.latest-news-container ul.do-pub-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.latest-news-container .do-pub-list .item-divider {
+    display: none;
+}
+
+.latest-news-container .do-pub-list .item__abstract {
+    display: none;
+}
+
+.latest-news-container .do-pub-list .item__topic span {
+    font-size: 0.75em;
+}
+
+.latest-news-container .do-pub-list .teaser-details-container {
+    font-size: 16px;
+}
+
+.latest-news-container .do-pub-list .item__topic {
+    margin: 7px 0;
+}
+
+.latest-news-container .do-pub-list .item__topic span {
+    font-size: 0.75em;
+}
+
+.latest-news-container .do-pub-list .teaser-details-container {
+    font-size: 16px;
+}
+
+.latest-news-container .do-pub-list .item__topic {
+    margin: 7px 0;
+}
+
+
+.latest-news-container .do-pub-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.latest-news-container .do-pub-list li:last-child {
+    border-bottom:0px solid transparent;
+}
+
+.latest-news-container .do-pub-list .teaser-tile-container h2.item__title {
+    font-size: 1.25em;
 }
 
 /* ARTICLE LEVEL */
