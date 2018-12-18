@@ -299,7 +299,7 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 
 .latest-news-container .do-pub-list li {
     padding: 5px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ddd;
 }
 
 .latest-news-container .do-pub-list li:last-child {
@@ -308,6 +308,34 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 
 .latest-news-container .do-pub-list .teaser-tile-container h2.item__title {
     font-size: 1.25em;
+}
+.editors-pick .do-pub-list .do_teaser_item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.editors-pick .do-pub-list .item__image {
+    width: 50%;
+}
+
+
+.editors-pick .do-pub-list .teaser-details-container {
+    width: 80%;
+}
+
+.editors-pick .do-pub-list .item__topic {
+    margin-bottom: 1em;
+}
+
+.editors-pick .do-pub-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.editors-pick .do-pub-list li:last-child {
+    border-bottom: 0px solid transparent;
 }
 
 /* ARTICLE LEVEL */
