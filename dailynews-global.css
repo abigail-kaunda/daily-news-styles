@@ -196,17 +196,17 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 }
 
 .adn-homepage-commentary .do-pub-list .teaser-details-container, .featured .do_teaser_item .teaser-details-container {
-    background-color: #cdcdcd;
+    background-color: #ddd;
     padding: 10px 5px;
     margin: 0 10px;
 }
 
 .adn-homepage-commentary .do-pub-list .do_teaser_item, .featured .do_teaser_item {
-    background-color: #cdcdcd;
+    background-color: #ddd;
 }
 
 .adn-homepage-commentary .do-pub-list .teaser-tile-container, .featured .do_teaser_item .teaser-tile-container {
-    background-color: #cdcdcd;
+    background-color: #ddd;
     margin-top: -40px;
     z-index: 100;
     position: relative;
