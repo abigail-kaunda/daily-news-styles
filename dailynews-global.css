@@ -349,6 +349,44 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 .editors-pick .teaser-tile-container .item__abstract {
     margin-top: 4%;
 }
+.homepage-top-container .row.row-md {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:991px) {
+    .homepage-top-container .row.row-md {
+        display: flex;
+        flex-wrap:wrap-reverse
+    }
+	.col-md-2-3.featured-article-container, .col-md-1-3.latest-news-container {
+    	margin-top: 5%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.editors-pick .do-pub-list .item__image img {
+    	width: 100%;
+	}
+	.editors-pick .do-pub-list .item__image {
+		padding-right:5%;
+	}
+	.editors-pick .do-pub-list .teaser-details-container {
+		padding-right:2.5%;
+	}
+}
+
+@media screen and (max-width:532px) {
+	.editors-pick .do-pub-list .do_teaser_item {
+		flex-direction:column;
+	}
+	.editors-pick .do-pub-list .item__image {
+		width:75%;
+		padding-right:0;
+    	text-align: center;
+	    margin-bottom: 5%;
+	}
+}
 
 
 /* ARTICLE LEVEL */
