@@ -323,8 +323,13 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 
 .editors-pick .do-pub-list .item__image {
     width: 50%;
+    max-height: 400px;
+    overflow: hidden;
 }
 
+.editors-pick .do-pub-list .item__image img {
+	max-width:300px;
+}
 
 .editors-pick .do-pub-list .teaser-details-container {
     width: 80%;
