@@ -204,6 +204,7 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 
 .adn-homepage-commentary .do-pub-list .do_teaser_item, .featured .do_teaser_item {
     background-color: #ddd;
+	min-height: 100%;
 }
 
 .adn-homepage-commentary .do-pub-list .teaser-tile-container, .featured .do_teaser_item .teaser-tile-container {
@@ -257,7 +258,7 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     display: none;
 }
 
-.latest-news-container ul.do-pub-list {
+.latest-news-container ul.do-pub-list, .editors-pick .do-pub-list {
     list-style-type: none;
     padding: 0;
     margin-top: 0;
