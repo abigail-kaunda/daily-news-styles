@@ -474,9 +474,12 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 	.editors-pick .do-pub-list .teaser-details-container {
  	   width: 100%;
 	}
-     .adn-homepage-commentary ul.do-pub-list li .item__image {
-        max-height: 350px;
+    .adn-homepage-commentary ul.do-pub-list li {
+        width: 100%;
     }  
+	.featured .teaser-tile-container h2.item__title {
+		font-size: 2em;
+	}
 }
 
 
