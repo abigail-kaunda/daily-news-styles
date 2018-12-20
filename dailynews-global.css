@@ -267,7 +267,7 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     display: none;
 }
 
-.latest-news-container ul.do-pub-list, .editors-pick .do-pub-list {
+.latest-news-container ul.do-pub-list, .editors-pick .do-pub-list, .topic-page .do-pub-list {
     list-style-type: none;
     padding: 0;
     margin-top: 0;
@@ -318,7 +318,7 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 .latest-news-container .do-pub-list .teaser-tile-container h2.item__title {
     font-size: 1.15em;
 }
-.editors-pick .do-pub-list .do_teaser_item {
+.editors-pick .do-pub-list .do_teaser_item, .topic-page .do-pub-list .do_list_item {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -326,18 +326,18 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     overflow: hidden;
 }
 
-.editors-pick .do-pub-list li:first-child  .do_teaser_item:first-child {
+.editors-pick .do-pub-list li:first-child  .do_teaser_item:first-child, .topic-page .do-pub-list li:first-child  .do_list_item:first-child {
     margin-top:0;
 }
 
-.editors-pick .do-pub-list .item__image {
+.editors-pick .do-pub-list .item__image, .topic-page .do-pub-list .item__image {
     width: 50%;
     max-height: 400px;
     overflow: hidden;
     padding: 10px 20px;
 }
 
-.editors-pick .do-pub-list .item__image img {
+.editors-pick .do-pub-list .item__image img, .topic-page .do-pub-list .item__image img {
 	width: 100%;
 	max-width:300px;
 }
@@ -346,11 +346,11 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     width: 80%;
 }
 
-.editors-pick .do-pub-list .item__topic {
+.editors-pick .do-pub-list .item__topic, .topic-page .do-pub-list .item__topic {
     margin-bottom: 1em;
 }
 
-.editors-pick .do-pub-list li {
+.editors-pick .do-pub-list li, .topic-page .do-pub-list li {
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
 }
@@ -481,6 +481,14 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 	}
 }
 
+/* TOPIC PAGE STYLES */
+
+.topic-page h1 {
+    color: #00447c;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2.35em;
+}
 
 /* ARTICLE LEVEL */
 figure.daily-news-image img {
