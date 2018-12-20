@@ -221,6 +221,7 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 
 .teaser-tile-container h2.item__title {
     margin-top: 0;
+	line-height: 1.5em;
 }
 .teaser-tile-container h2.item__title a:link, .teaser-tile-container h2.item__title a:visited {
     text-decoration: none;
@@ -334,9 +335,11 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     width: 50%;
     max-height: 400px;
     overflow: hidden;
+    padding: 10px 20px;
 }
 
 .editors-pick .do-pub-list .item__image img {
+	width: 100%;
 	max-width:300px;
 }
 
@@ -390,14 +393,20 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
         justify-content:center;
     }
     .adn-homepage-commentary ul.do-pub-list li {
-        width:48.5%;
-        margin-bottom:5%;
+        width: 75%;
+        max-width:100%;
+    }
+    .adn-homepage-commentary ul.do-pub-list li .item__image {
+        max-height: 450px;
     }
     .adn-homepage-commentary ul.do-pub-list li:last-child {
         margin-bottom:0;
     }
     .adn-homepage-commentary .do-pub-list .teaser-details-container {
         height:fit-content;
+    }
+    .adn-homepage-commentary .teaser-tile-container h2.item__title a:link, .adn-homepage-commentary .teaser-tile-container h2.item__title a:visited {
+        font-size:1em;
     }
 }
 
@@ -411,7 +420,46 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 	.editors-pick .do-pub-list .teaser-details-container {
 		padding-right:2.5%;
 	}
+    .adn-homepage-commentary ul.do-pub-list {
+        flex-wrap:nowrap;
+    }
+    .adn-homepage-commentary ul.do-pub-list li {
+        width: 75%;
+        max-width:100%;
+        min-width:175px;
+    }
+    .adn-homepage-commentary ul.do-pub-list li .item__image {
+        max-height: 270px;
+    }
+    .adn-homepage-commentary ul.do-pub-list li {
+        margin-bottom:0;
+    }
+    .adn-homepage-commentary .do-pub-list .teaser-details-container {
+        height:fit-content;
+    }
+    .adn-homepage-commentary .teaser-tile-container h2.item__title a:link, .adn-homepage-commentary .teaser-tile-container h2.item__title a:visited {
+        font-size:0.85em;
+    }
 }
+@media (max-width:700px) {
+    .adn-homepage-commentary ul.do-pub-list {
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    .adn-homepage-commentary ul.do-pub-list li {
+        margin-bottom:5%;
+    }
+    .adn-homepage-commentary ul.do-pub-list li:last-child {
+        margin-bottom:0;
+    }
+    .adn-homepage-commentary ul.do-pub-list li .item__image {
+        max-height: 450px;
+    }  
+    .adn-homepage-commentary .teaser-tile-container h2.item__title a:link, .adn-homepage-commentary .teaser-tile-container h2.item__title a:visited {
+        font-size:1em;
+		line-height: 1.5em;
+    }  
+} 
 
 @media screen and (max-width:532px) {
 	.editors-pick .do-pub-list .do_teaser_item {
@@ -426,6 +474,9 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 	.editors-pick .do-pub-list .teaser-details-container {
  	   width: 100%;
 	}
+     .adn-homepage-commentary ul.do-pub-list li .item__image {
+        max-height: 350px;
+    }  
 }
 
 
