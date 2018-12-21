@@ -552,6 +552,9 @@ img.adn-fig {
     figure.daily-news-image, figure.daily-news-figure {
         margin: 1em auto;
     }
+	h1.article-title {
+		font-size: 36px;
+	}
 }
 @media screen and (min-width: 532px){
 	.daily-news-image:nth-of-type(even) {
