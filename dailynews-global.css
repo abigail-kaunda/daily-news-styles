@@ -562,6 +562,7 @@ figcaption {
     display: table-caption;
     caption-side: bottom;
     padding: 5px;
+	font-size:14px;
 }
 
 figure.daily-news-image, figure.daily-news-figure {
@@ -584,7 +585,7 @@ figure.daily-news-image img, figure.daily-news-figure img {
     margin-top: 20px;
 }
 
-.article__body p {
+.article__body, .article__body p {
 	font-size: 18px;
 	line-height:1.6;
 }
