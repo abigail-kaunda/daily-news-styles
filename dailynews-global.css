@@ -444,6 +444,7 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     .adn-homepage-commentary ul.do-pub-list {
         flex-wrap:wrap;
         justify-content:center;
+		padding: 0 2.5%;
     }
     .adn-homepage-commentary ul.do-pub-list li {
         margin-bottom:5%;
@@ -452,7 +453,7 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
         margin-bottom:0;
     }
     .adn-homepage-commentary ul.do-pub-list li .item__image {
-        max-height: 450px;
+        max-height: 400px;
     }  
     .adn-homepage-commentary .teaser-tile-container h2.item__title a:link, .adn-homepage-commentary .teaser-tile-container h2.item__title a:visited {
         font-size:1em;
