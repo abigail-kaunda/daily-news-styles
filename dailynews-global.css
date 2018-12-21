@@ -522,7 +522,11 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
         font-size:2em;
     }
 	.topic-page .do-pub-list .item__image {
-    	max-width: 40%;
+    	max-width: 35%;
+	    padding: 0 10px 0 0;
+	}
+	.topic-page .do_list_item .list-details-container {
+    	padding-right: 5px;
 	}
 }
 
