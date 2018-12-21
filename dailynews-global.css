@@ -461,12 +461,9 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 } 
 
 @media screen and (max-width:532px) {
-	.editors-pick .do-pub-list .do_teaser_item {
-		flex-direction:column;
-	}
 	.editors-pick .do-pub-list .item__image {
-		width:75%;
-		padding-right:0;
+		width: 50%;
+    	padding-left: 0;
     	text-align: center;
 	    margin-bottom: 5%;
 	}
@@ -475,6 +472,8 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 	}
     .adn-homepage-commentary ul.do-pub-list li {
         width: 100%;
+		margin-right: 0;
+    	margin-left: 0;
     }  
 	.featured .teaser-tile-container h2.item__title {
 		font-size: 2em;
