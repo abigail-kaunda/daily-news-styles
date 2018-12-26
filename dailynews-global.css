@@ -538,6 +538,12 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
     	padding-right: 5px;
 	}
 }
+.topic-page img[src*="/list/"] {
+    display:none;
+}
+.topic-page img[src*="/list/media"] {
+    display:block;
+}
 
 /* ARTICLE LEVEL */
 figure.daily-news-image img {
