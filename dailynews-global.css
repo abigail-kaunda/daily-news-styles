@@ -637,3 +637,48 @@ h1.article-title {
     float:left;
     margin-left:auto;
 }
+
+.hideable {
+  max-width:500px;
+  background:#eee;
+  padding:10px;
+  margin-top:5px;
+  border-radius:3px;
+}
+#bio-section span, #disclosure-section span {
+    display: block;
+    margin: 10px auto;
+}
+.hider:after {
+  content: '\02795'; 
+  font-size: 13px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; 
+  color:black;
+}
+button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px 10px 0;
+  transition: 0.3s;
+  font-size: 14px;
+  clear:right;
+  background:white;
+}
+button:hover, button.active {
+  text-decoration:underline;
+}
+
+.hideable {
+  clear:both;
+}
+.article__body {
+  clear: both;
+}
