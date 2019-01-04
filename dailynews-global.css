@@ -166,6 +166,9 @@ span.individualUser a:hover {
     text-decoration: underline;
     color: #088965;
 }
+.col-md-1-2.search-items-right {
+    display: none;
+}
 
 /* HOMEPAGE STYLES */
 .homepage-layout h1 {
