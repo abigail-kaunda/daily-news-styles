@@ -683,3 +683,14 @@ button:hover, button.active {
   clear: both;
   padding-top:10px;
 }
+.trendmd-widget_horizontal {
+    background: #eee;
+    padding-left:10px!important;
+    padding-right:10px!important;
+}
+.trendmd-widget-header h3 {
+  text-transform:capitalize;
+  font-size:20px!important;
+  color:black;
+  font-family: Lato, 'Noto Sans', sans-serif!important;
+}
