@@ -358,6 +358,11 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 .latest-news-container .teaser-tile-container h2.item__title {
     font-size: 1.15em;
 }
+
+.latest-news-container .mostRead li {
+	margin-bottom:0px;
+}
+
 .editors-pick .do-pub-list .do_teaser_item, .topic-page .do-pub-list .do_list_item, div#searchResultContainer .do_list_item  {
     display: flex;
     align-items: center;
