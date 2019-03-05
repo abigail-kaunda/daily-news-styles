@@ -303,59 +303,59 @@ div#adn-homepage-commentary h1, .editors-pick-container h1 {
 .featured .teaser-tile-container h2.item__title {
     font-size: 2.35em;
 }
-.latest-news-container .do-pub-list .item__image {
+.latest-news-container .item__image {
     display: none;
 }
 
-.latest-news-container ul.do-pub-list, .editors-pick .do-pub-list, .topic-page .do-pub-list {
+.latest-news-container ul, .editors-pick .do-pub-list, .topic-page .do-pub-list {
     list-style-type: none;
     padding: 0;
     margin-top: 0;
 }
 
-.latest-news-container .do-pub-list .item-divider {
+.latest-news-container .item-divider {
     display: none;
 }
 
-.latest-news-container .do-pub-list .item__abstract {
+.latest-news-container .item__abstract {
     display: none;
 }
 
-.latest-news-container .do-pub-list .item__topic span {
+.latest-news-container .item__topic span {
     font-size: 0.75em;
 }
 
-.latest-news-container .do-pub-list .teaser-details-container {
+.latest-news-container  .teaser-details-container {
     font-size: 16px;
 }
 
-.latest-news-container .do-pub-list .item__topic {
+.latest-news-container .item__topic {
     margin: 7px 0;
 }
 
-.latest-news-container .do-pub-list .item__topic span {
+.latest-news-container .item__topic span {
     font-size: 0.75em;
 }
 
-.latest-news-container .do-pub-list .teaser-details-container {
+.latest-news-container .teaser-details-container {
     font-size: 16px;
 }
 
-.latest-news-container .do-pub-list .item__topic {
+.latest-news-container  .item__topic {
     margin: 7px 0;
 }
 
 
-.latest-news-container .do-pub-list li {
+.latest-news-container li {
     padding: 5px 0;
     border-bottom: 1px solid #ddd;
 }
 
-.latest-news-container .do-pub-list li:last-child {
+.latest-news-container li:last-child {
     border-bottom:0px solid transparent;
 }
 
-.latest-news-container .do-pub-list .teaser-tile-container h2.item__title {
+.latest-news-container .teaser-tile-container h2.item__title {
     font-size: 1.15em;
 }
 .editors-pick .do-pub-list .do_teaser_item, .topic-page .do-pub-list .do_list_item, div#searchResultContainer .do_list_item  {
