@@ -629,7 +629,7 @@ h1.article-title {
 	font-size: 18px;
 }
 
-.article__body p {
+.article__body p, .article__body ul {
 	line-height:1.6;
 }
 
